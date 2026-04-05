@@ -328,11 +328,11 @@ final class WearEngineManager: ObservableObject {
 
     private func makeReceiverIdentity() -> (WESIdentityInfo, WESIdentityInfo) {
         let src = WESIdentityInfo()
-        src.mPackageName = destPkgName
-        src.mFingerPrint = destFingerprint
+        src.mPackageName = srcPkgName
+        src.mFingerPrint = srcFingerprint
         let dest = WESIdentityInfo()
-        dest.mPackageName = srcPkgName
-        dest.mFingerPrint = srcFingerprint
+        dest.mPackageName = destPkgName
+        dest.mFingerPrint = destFingerprint
         return (src, dest)
     }
 
@@ -438,12 +438,12 @@ final class WearEngineManager: ObservableObject {
         }
         
         let srcInfo = WESIdentityInfo()
-        srcInfo.mPackageName = destPkgName
-        srcInfo.mFingerPrint = destFingerprint
+        srcInfo.mPackageName = srcPkgName
+        srcInfo.mFingerPrint = srcFingerprint
         
         let destInfo = WESIdentityInfo()
-        destInfo.mPackageName = srcPkgName
-        destInfo.mFingerPrint = srcFingerprint
+        destInfo.mPackageName = destPkgName
+        destInfo.mFingerPrint = destFingerprint
         
         receiverCallback = { [weak self] (status: WearEngineServerErrorCode, message: WESP2PMessage?) in
             guard let self = self else { return }

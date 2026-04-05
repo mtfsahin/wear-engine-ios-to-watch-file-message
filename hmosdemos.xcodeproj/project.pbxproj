@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		939F3D9F2E77FDE100FB49E8 /* WearEngineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939F3D9E2E77FDE100FB49E8 /* WearEngineSDK.framework */; };
+		939F3DA12E77FDEF00FB49E8 /* WearEngineSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 939F3DA02E77FDEF00FB49E8 /* WearEngineSDK.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		939F3D692E77FD0200FB49E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 939F3D4A2E77FD0000FB49E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939F3D512E77FD0000FB49E8;
+			remoteInfo = hmosdemos;
+		};
+		939F3D732E77FD0200FB49E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 939F3D4A2E77FD0000FB49E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939F3D512E77FD0000FB49E8;
+			remoteInfo = hmosdemos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		939F3D522E77FD0000FB49E8 /* hmosdemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hmosdemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		939F3D682E77FD0200FB49E8 /* hmosdemosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hmosdemosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		939F3D722E77FD0200FB49E8 /* hmosdemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hmosdemosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		939F3D9C2E77FDD000FB49E8 /* WearEngineSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WearEngineSDK.bundle; path = WearEngineSDK/WearEngineSDK.bundle; sourceTree = "<group>"; };
+		939F3D9E2E77FDE100FB49E8 /* WearEngineSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WearEngineSDK.framework; path = WearEngineSDK/WearEngineSDK.framework; sourceTree = "<group>"; };
+		939F3DA02E77FDEF00FB49E8 /* WearEngineSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WearEngineSDK.bundle; path = WearEngineSDK/WearEngineSDK.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		939F3D7A2E77FD0200FB49E8 /* Exceptions for "hmosdemos" folder in "hmosdemos" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 939F3D512E77FD0000FB49E8 /* hmosdemos */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		939F3D542E77FD0000FB49E8 /* hmosdemos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				939F3D7A2E77FD0200FB49E8 /* Exceptions for "hmosdemos" folder in "hmosdemos" target */,
+			);
+			path = hmosdemos;
+			sourceTree = "<group>";
+		};
+		939F3D6B2E77FD0200FB49E8 /* hmosdemosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hmosdemosTests;
+			sourceTree = "<group>";
+		};
+		939F3D752E77FD0200FB49E8 /* hmosdemosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hmosdemosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		939F3D4F2E77FD0000FB49E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939F3D9F2E77FDE100FB49E8 /* WearEngineSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939F3D652E77FD0200FB49E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939F3D6F2E77FD0200FB49E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		939F3D492E77FD0000FB49E8 = {
+			isa = PBXGroup;
+			children = (
+				939F3DA02E77FDEF00FB49E8 /* WearEngineSDK.bundle */,
+				939F3D542E77FD0000FB49E8 /* hmosdemos */,
+				939F3D6B2E77FD0200FB49E8 /* hmosdemosTests */,
+				939F3D752E77FD0200FB49E8 /* hmosdemosUITests */,
+				939F3D9B2E77FDD000FB49E8 /* Frameworks */,
+				939F3D532E77FD0000FB49E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		939F3D532E77FD0000FB49E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				939F3D522E77FD0000FB49E8 /* hmosdemos.app */,
+				939F3D682E77FD0200FB49E8 /* hmosdemosTests.xctest */,
+				939F3D722E77FD0200FB49E8 /* hmosdemosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		939F3D9B2E77FDD000FB49E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				939F3D9E2E77FDE100FB49E8 /* WearEngineSDK.framework */,
+				939F3D9C2E77FDD000FB49E8 /* WearEngineSDK.bundle */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		939F3D512E77FD0000FB49E8 /* hmosdemos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939F3D7B2E77FD0200FB49E8 /* Build configuration list for PBXNativeTarget "hmosdemos" */;
+			buildPhases = (
+				939F3D4E2E77FD0000FB49E8 /* Sources */,
+				939F3D4F2E77FD0000FB49E8 /* Frameworks */,
+				939F3D502E77FD0000FB49E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				939F3D542E77FD0000FB49E8 /* hmosdemos */,
+			);
+			name = hmosdemos;
+			packageProductDependencies = (
+			);
+			productName = hmosdemos;
+			productReference = 939F3D522E77FD0000FB49E8 /* hmosdemos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		939F3D672E77FD0200FB49E8 /* hmosdemosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939F3D802E77FD0200FB49E8 /* Build configuration list for PBXNativeTarget "hmosdemosTests" */;
+			buildPhases = (
+				939F3D642E77FD0200FB49E8 /* Sources */,
+				939F3D652E77FD0200FB49E8 /* Frameworks */,
+				939F3D662E77FD0200FB49E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				939F3D6A2E77FD0200FB49E8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				939F3D6B2E77FD0200FB49E8 /* hmosdemosTests */,
+			);
+			name = hmosdemosTests;
+			packageProductDependencies = (
+			);
+			productName = hmosdemosTests;
+			productReference = 939F3D682E77FD0200FB49E8 /* hmosdemosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		939F3D712E77FD0200FB49E8 /* hmosdemosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939F3D832E77FD0200FB49E8 /* Build configuration list for PBXNativeTarget "hmosdemosUITests" */;
+			buildPhases = (
+				939F3D6E2E77FD0200FB49E8 /* Sources */,
+				939F3D6F2E77FD0200FB49E8 /* Frameworks */,
+				939F3D702E77FD0200FB49E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				939F3D742E77FD0200FB49E8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				939F3D752E77FD0200FB49E8 /* hmosdemosUITests */,
+			);
+			name = hmosdemosUITests;
+			packageProductDependencies = (
+			);
+			productName = hmosdemosUITests;
+			productReference = 939F3D722E77FD0200FB49E8 /* hmosdemosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		939F3D4A2E77FD0000FB49E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					939F3D512E77FD0000FB49E8 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					939F3D672E77FD0200FB49E8 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 939F3D512E77FD0000FB49E8;
+					};
+					939F3D712E77FD0200FB49E8 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 939F3D512E77FD0000FB49E8;
+					};
+				};
+			};
+			buildConfigurationList = 939F3D4D2E77FD0000FB49E8 /* Build configuration list for PBXProject "hmosdemos" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 939F3D492E77FD0000FB49E8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 939F3D532E77FD0000FB49E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				939F3D512E77FD0000FB49E8 /* hmosdemos */,
+				939F3D672E77FD0200FB49E8 /* hmosdemosTests */,
+				939F3D712E77FD0200FB49E8 /* hmosdemosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		939F3D502E77FD0000FB49E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939F3DA12E77FDEF00FB49E8 /* WearEngineSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939F3D662E77FD0200FB49E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939F3D702E77FD0200FB49E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		939F3D4E2E77FD0000FB49E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939F3D642E77FD0200FB49E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939F3D6E2E77FD0200FB49E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		939F3D6A2E77FD0200FB49E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 939F3D512E77FD0000FB49E8 /* hmosdemos */;
+			targetProxy = 939F3D692E77FD0200FB49E8 /* PBXContainerItemProxy */;
+		};
+		939F3D742E77FD0200FB49E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 939F3D512E77FD0000FB49E8 /* hmosdemos */;
+			targetProxy = 939F3D732E77FD0200FB49E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		939F3D7C2E77FD0200FB49E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX97627X68;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WearEngineSDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hmosdemos/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need to Bluetooth permission.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtse.m00859088.ios.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		939F3D7D2E77FD0200FB49E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX97627X68;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WearEngineSDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hmosdemos/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need to Bluetooth permission.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtse.m00859088.ios.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		939F3D7E2E77FD0200FB49E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SX97627X68;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		939F3D7F2E77FD0200FB49E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SX97627X68;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		939F3D812E77FD0200FB49E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX97627X68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtse.m00859088.ios.sample.hmosdemosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hmosdemos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hmosdemos";
+			};
+			name = Debug;
+		};
+		939F3D822E77FD0200FB49E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX97627X68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtse.m00859088.ios.sample.hmosdemosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hmosdemos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hmosdemos";
+			};
+			name = Release;
+		};
+		939F3D842E77FD0200FB49E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX97627X68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtse.m00859088.ios.sample.hmosdemosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hmosdemos;
+			};
+			name = Debug;
+		};
+		939F3D852E77FD0200FB49E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX97627X68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtse.m00859088.ios.sample.hmosdemosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hmosdemos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		939F3D4D2E77FD0000FB49E8 /* Build configuration list for PBXProject "hmosdemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F3D7E2E77FD0200FB49E8 /* Debug */,
+				939F3D7F2E77FD0200FB49E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939F3D7B2E77FD0200FB49E8 /* Build configuration list for PBXNativeTarget "hmosdemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F3D7C2E77FD0200FB49E8 /* Debug */,
+				939F3D7D2E77FD0200FB49E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939F3D802E77FD0200FB49E8 /* Build configuration list for PBXNativeTarget "hmosdemosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F3D812E77FD0200FB49E8 /* Debug */,
+				939F3D822E77FD0200FB49E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939F3D832E77FD0200FB49E8 /* Build configuration list for PBXNativeTarget "hmosdemosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F3D842E77FD0200FB49E8 /* Debug */,
+				939F3D852E77FD0200FB49E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 939F3D4A2E77FD0000FB49E8 /* Project object */;
+}

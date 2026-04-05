@@ -40,5 +40,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>This app requires Bluetooth access to communicate with your Huawei Watch.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>This app requires Bluetooth access to communicate with your Huawei Watch.</string>
 </dict>
 </plist>
