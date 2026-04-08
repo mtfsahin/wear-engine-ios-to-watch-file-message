@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>devicemanagerUri</key>
+	<string>https://www.huawei.com/hiwear/devicemanager</string>
+	<key>redirectUri</key>
+	<string>https://h5hosting.dbankcdn.com/cch5/healthkit/oauth-h5/oauth-callback.html</string>
+	<key>health_oauth</key>
+	<string>https://health-api.cloud.huawei.com</string>
+	<key>account_oauth</key>
+	<string>https://oauth-login.cloud.huawei.com</string>
+</dict>
+</plist>

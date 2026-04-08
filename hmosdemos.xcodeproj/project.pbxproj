@@ -318,7 +318,8 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hmosdemos/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need to Bluetooth permission.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app requires Bluetooth access to communicate with your Huawei Watch.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app requires Bluetooth access to communicate with your Huawei Watch.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -329,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dtse.m00859088.ios.sample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmosdemos.wearengine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -353,7 +354,8 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hmosdemos/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need to Bluetooth permission.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app requires Bluetooth access to communicate with your Huawei Watch.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app requires Bluetooth access to communicate with your Huawei Watch.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -364,7 +366,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dtse.m00859088.ios.sample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmosdemos.wearengine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -506,7 +508,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dtse.m00859088.ios.sample.hmosdemosTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmosdemos.wearengine.hmosdemosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -525,7 +527,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dtse.m00859088.ios.sample.hmosdemosTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmosdemos.wearengine.hmosdemosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -542,7 +544,7 @@
 				DEVELOPMENT_TEAM = SX97627X68;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dtse.m00859088.ios.sample.hmosdemosUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmosdemos.wearengine.hmosdemosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -559,7 +561,7 @@
 				DEVELOPMENT_TEAM = SX97627X68;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dtse.m00859088.ios.sample.hmosdemosUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmosdemos.wearengine.hmosdemosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

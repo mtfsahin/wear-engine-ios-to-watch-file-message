@@ -1,0 +1,6 @@
+framework module WearEngineSDK {
+  umbrella header "WearEngineSDK.h"
+  export *
+
+  module * { export * }
+}
